@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'main.core',  # Custom app
 ]
 
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
