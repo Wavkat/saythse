@@ -1,5 +1,5 @@
 import openpyxl
-from core.models import Contact
+from main.core.models import Contact
 
 def import_contacts_from_excel(file_path):
     wb = openpyxl.load_workbook(file_path)

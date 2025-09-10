@@ -1,8 +1,8 @@
 from django.urls import path
 from django.contrib.admin import AdminSite
-from core.models import Contact
-from core.admin import ContactAdmin
-from core import views
+from main.core.models import Contact
+from main.core.admin import ContactAdmin
+from main.core import views
 
 # Custom admin sayt
 class MyAdminSite(AdminSite):
