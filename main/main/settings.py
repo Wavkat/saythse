@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main.core',  # Custom app
+    #'core'
+    'main.core',
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
